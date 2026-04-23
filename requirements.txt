@@ -1,0 +1,35 @@
+# ── Core LangChain ───────────────────────────────────────────────────────────
+langchain>=0.3
+langchain-community>=0.3
+langchain-chroma>=0.1
+langchain-experimental>=0.3
+langchain-classic>=0.1
+langchain-text-splitters>=0.3
+chromadb>=0.5
+
+# ── LLM: Groq cloud API ──────────────────────────────────────────────────────
+langchain-groq>=0.1
+
+# ── Embeddings: local HuggingFace (no API key needed) ───────────────────────
+langchain-huggingface>=0.1
+sentence-transformers>=3.0
+
+# ── PDF loading ───────────────────────────────────────────────────────────────
+pypdf>=4.0
+
+# ── Speech-to-Text ────────────────────────────────────────────────────────────
+faster-whisper>=1.0
+
+# ── Text-to-Speech ────────────────────────────────────────────────────────────
+edge-tts>=6.1
+
+# ── Audio I/O ────────────────────────────────────────────────────────────────
+sounddevice>=0.4
+soundfile>=0.12
+numpy>=1.26
+
+# ── Web UI ───────────────────────────────────────────────────────────────────
+chainlit>=1.0
+
+# ── Environment variables ────────────────────────────────────────────────────
+python-dotenv>=1.0
